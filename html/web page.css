@@ -1,0 +1,52 @@
+body{
+    background: url(BUSINESSIMG.jpg)
+    no-repeat center center fixed;
+    background-size: cover;
+}
+header{
+    overflow: hidden;
+}
+.head{
+    float: left;
+    margin-left: 2%;
+    color: orangered;
+}
+nav{
+    float: right;
+    margin-top: 0.1%;
+    margin-right: 2%;
+    
+}
+li{
+    display: inline;
+    padding-right: 1.7rem;
+    background-color: rgba(240, 236, 6, 0.808);
+    padding: auto;
+    text-overflow: initial;
+
+}
+#first{
+    font-size: large;
+    color: red;
+    text-align: center;
+    margin-top: 8%;
+}
+#second{
+    font-size: xx-large;
+    text-align: center;
+    color: red;
+}
+#third{
+    color: red;
+    text-align: center;
+    font-size: inherit;
+}
+#fourth{
+    text-align: center;
+    margin-right: 52%;
+    color: lightcoral;
+    background-color: lawngreen;
+}
+#life{
+    color: indianred;
+}

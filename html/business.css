@@ -1,0 +1,86 @@
+body{
+    background: url(BUSINESSIMG.jpg)
+    no-repeat center center fixed;
+    background-size: cover;
+    font-family: fantasy;
+}
+header{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+.head{
+    color: #fff;
+    font-size: 0.8rem;
+    word-spacing: 0.7rem;
+    float: left;
+}
+nav{
+    float: right;
+}
+ul{
+    border-left: 3px solid rgb(204, 23, 23);
+}
+li{
+    display: inline;
+    padding-right: 1.7rem;
+}
+li a{
+    color: rgb(221, 22, 22);
+    text-decoration: silver;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.quote{
+    background-color: tomato;
+    padding: 0.5rem;
+    border-radius: 1.3rem;
+}
+.first{
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 5rem;
+}
+showcase h1{
+    font-size: 4rem;
+    color: #fff;
+    margin-bottom: 0;
+}
+showcase h3{
+    font-size: 2rem;
+    color: #fff;
+    letter-spacing: 0.2rem;
+    margin-top: 0.5rem;
+}
+showcase p{
+    color: rgb(247, 107, 14);
+    font-family: cursive;
+    font-size: 1.2rem;
+}
+a button{
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 0.7rem 1rem;
+    border-radius: 1.3rem;
+    margin-top: 1.2rem;
+}
+aside{
+    width: 90%;
+    margin: auto;
+    color: #fff;
+    font-size: 1.2rem;
+    text-align: right;
+}
+.price{
+    color: gold;
+    font-size: 3rem;
+    padding-left: 0.7rem;
+}
+.btn{
+    background-color: #E44236;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem;
+}

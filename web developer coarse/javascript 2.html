@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <title>java</title>
+        <link rel="stylesheet" type="text/css" href="javascript 2.css">
+    </head>
+    <body>
+        <div class="circle" id="red-circle"></div>
+        <input id="d" type="text">
+        <button id="lol">change text</button>
+        <p id="ma">this is some text</p>
+        <p>what is the magic word</p>
+        <p><input type="text" id="magicword"></p>
+        <p><button id="check magic">enter</button></p>
+        <p>how many fingures are you holding up</p>
+        
+        <div id="tweetdiv"></div>
+       <p id="myNumber"> <select id="enter">
+            <option>0</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+        </select>
+        <button id="guess">guess</button></p>
+
+
+
+         <script type="text/javascript">
+         
+        document.getElementById("red-circle").onclick =function(){
+            document.getElementById("red-circle").style.display="none";
+        }
+        document.getElementById("lol").onclick=function(){
+            var textEntered ="";
+            textEntered=document.getElementById("d").value;
+            document.getElementById("ma").innerHTML=textEntered;
+        }
+            var myArray = new Array();
+            myArray[0] = "pizza";
+            myArray[1] = "chocolate";
+            var tweets =["morning", "i love coffee"];
+            alert(tweets[1]);
+            var x=2;
+            if (x==1) {
+                alert("x=1");
+            }
+            else
+            alert("x is not 1")
+            document.getElementById("check magic").onclick=function() {
+                var magicWordEntered = document.getElementById("magicword").value;
+                var magicword="bhaago";
+                if(magicWordEntered==magicword){
+                    alert("yo got it");
+                }else{
+                    alert("don not");
+                }
+            }
+            var  tweetString;
+            var tweets = ["Hi everyone!","i lovento eat!","good ni8 :)","sweet dream!"];
+            for (var i = 0; i < tweets.length;i++) {
+                alert(tweets[i]);
+                tweetString = tweetString+ "<p>" + tweets[i] + "</p>";
+            }
+            document.getElementById("tweetdiv").innerHTML =  tweetString;
+            document.getElementById("guess").onclick=function(){
+                var myNumber = document.getElementById("myNumber").Value;
+                var gotIt = false;
+                var numberOfGuesses = 1;
+                while(gotIt==false){
+                    var guess = Math.random();
+                    guess = guess * 6;
+                    guess = Math.floor(guess);
+                    if(guess==myNumber){
+                        gotIt=true;
+                        alert("Got it; It was a" + guess + ". It took me" +numberOfGuesses+ "guesses");
+                    }
+                    else
+                    numberOfGuesses++;
+                }
+            }
+
+
+            
+        
+        
+        
+        </script>
+    </body>
+</html>

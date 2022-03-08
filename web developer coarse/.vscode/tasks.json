@@ -1,0 +1,26 @@
+{
+
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "jC",
+            "command": "java",
+            "windows":{
+                "command": "C:\\Program Files\\Java\\jdk-14.0.1\\bin\\javac.exe"
+            },
+            "args": [
+                "${file}"
+            ]
+        },
+        {
+            "label": "JR",
+            "command": "java",
+            "windows":{
+                "command": "C:\\Program Files\\Java\\jdk-14.0.1\\bin\\java.exe"
+            },
+            "args": [
+              "-cp","${fileDirname}",  "${fileBasenameNoExtension}"
+            ]
+        }
+    ]
+}

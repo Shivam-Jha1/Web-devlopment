@@ -1,0 +1,25 @@
+body{
+    background-image: linear-gradient(to right, #64edf7, #cedbf0  );
+}
+h1{
+    color: violet;
+    text-align: center;
+    font-size: 300%;
+    font-family: fantasy;
+}
+#first{
+    text-align: center;
+    font-size: 150%;
+    color: sandybrown;
+}
+#second{
+    text-align: center;
+    font-size: 120%;
+    color: rgb(219, 152, 27);
+}
+div{
+    border:50px solid red;
+    width: 1500px;
+    height: 80px;
+
+}

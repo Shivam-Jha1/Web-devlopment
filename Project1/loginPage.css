@@ -1,0 +1,53 @@
+body{
+    background: url(imp.jpg);
+    background-size: cover;
+}
+div{
+    background:orange;
+    color:green; 
+    font-family: 'Times New Roman', Times, serif;
+    background: url(rock.jpg);
+    background-size: cover;
+    }
+    input{
+        width: 40%;
+        padding: 0.8rem;
+        border-radius: 20px;
+        border: none;
+    }
+
+    button{
+        width: 20%;
+        padding: 0.6rem;
+        background-color: rosybrown;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+    }
+    .container{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 500px;
+        padding: 2rem;
+        background: rgba(0,0,0,.8);
+        box-sizing: border-box;
+        box-shadow: 0 16px 26px rgba(0,0,0,.5);
+        border-radius: 12px;
+        text-align: center;
+    }
+    label{
+        color: red;
+        text-shadow: 25in;
+        text-size-adjust: 95;
+    }
+    h1{
+        position: absolute;
+        top: 14%;
+        left: 590;
+        font-family: jokerman;
+        font-size: 45;
+     
+        
+    }

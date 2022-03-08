@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <style>
+        .form{
+          margin-left: 42%;
+        }
+        body {
+            text-size-adjust: 100px;
+  background-image: url('vaccine.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+    </style>
+</head>
+<body>
+
+    <h1 style="text-align: center;">COVID VACCINE SURVEY FORM</h1>
+    <h4 style="text-align: center;">Please fill correct details only</h4>
+
+<div  class="form">
+<form>
+   Name :  <input type="text" placeholder="Enter your name"><br /><br>
+   Age  :   <input max="90" min="18" type="number" placeholder="Enter your age"><br><br>
+   Have YOU TOOK VACCINE? : 
+   <select name="Ifelse">
+   <option value="YES">YES</option>
+   <option value="NO">NO</option>
+</select><br><br>
+If not please explain the reason -- <br><br>  <textarea name="Comments" cols=30 rows=4 placeholder="Explain in MAX 100 Words"></textarea> </br> </br>
+</form>
+</div>
+
+</body>
+</html>

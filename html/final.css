@@ -1,0 +1,34 @@
+.
+{
+    margin: 0;
+    padding: 0;
+}
+.container{
+position: relative;
+width: 100%;
+height: 110vh;
+background: #000;
+}
+#lol{
+    height: 2600px;
+    width: 2600px;
+    float: left;
+}
+#bkl{
+    height: 2700px;
+    width: 2700px;
+    position: absolute;
+}
+.container img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.container img:nth-child(2)
+{
+    mix-blend-mode: multiply;
+}

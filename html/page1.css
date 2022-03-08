@@ -1,0 +1,28 @@
+div{
+background:orange;
+colour:green; 
+}
+#quote {
+  font-family: "jokerman";
+   color:black; 
+}
+.movie{
+      
+     color: white;
+     background: steelblue;
+}
+
+span#author {
+
+     text-transform: uppercase;
+     font-family:"chiller";
+}
+#skills ol li {
+
+     color:blue;
+     background:brown;
+}
+/*#skills ul li{
+        color:green;
+        background:white;
+}

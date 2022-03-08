@@ -1,0 +1,21 @@
+body{
+    background-color: aqua;
+}
+h1{
+text-align: center;
+background-color: bisque;
+color:black;
+padding: 1%;
+padding-right: 2px;
+border-radius: 20%;
+}
+nav{
+    float: right;
+    
+    
+}
+li{
+    display: inline;
+    padding-right: 2rem;
+    text-overflow: initial;
+}

@@ -1,0 +1,22 @@
+#Avengers{
+    background: orangered;
+    color: greenyellow;
+    border: 3px double red;
+    padding: 13px 13px;
+}
+#normal{
+    font-style: normal;
+}
+#italic{
+    font-style: italic;
+    font-size: 200%;
+    font-family: jokerman;
+    color: rgb(221, 20, 30);
+    border-radius: 10000px;
+    border: 3px solid rebeccapurple;
+    background-color: royalblue;
+}
+#background{
+    color: saddlebrown;
+    background-color: rosybrown;
+}

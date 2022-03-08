@@ -1,0 +1,43 @@
+<html>
+<head>
+    <style>
+        body {
+          background-color: #ffff99;
+        }
+        </style>
+        </head>
+        <body>
+<title>login form</title>
+<link rel="stylesheet" type="text/css" href="loginPage.css">
+<script>
+            function myFunction()
+            {
+                var un = document.forms["myForm"]["Uname"].value;
+                var pw = document.forms["myForm"]["Pass"].value;
+                if(un=="student" && pw=="1234")
+                {
+                    window.location.href="welcome.html";
+                }
+                else{
+                    alert("invalid password or username");
+                }
+            }
+        </script>
+
+<body>
+
+<h1 style="color:Tomato;">student explorer</h1>
+<div class="container">
+<form name = "myForm" method="post">
+<label>User Name</label><br>
+<input type="text" name="Uname" class="inputText" placeholder="username is student">
+<br><br>
+<label>Password</label><br>
+<input type="password" name="Pass" class="inputText" placeholder="Password is 1234">
+<br><br>
+<input type="button" name="log" id="logbutton" value="Login" onclick="myFunction()">
+<br><br>
+</form>
+</div>
+</body>
+</html>
